@@ -1,8 +1,4 @@
 let userName = prompt("Nhập username của bạn:");
 let password = prompt("Nhập mật khẩu của bạn:");
 
-if (userName === "admin" && password === "123") {
-    console.log("Đăng nhập thành công");
-} else {
-    console.log("Đăng nhập thất bại");
-}
+console.log(userName === "admin" && password === "123456" ? "Đăng nhập thành công" : "Đăng nhập thất bại");
