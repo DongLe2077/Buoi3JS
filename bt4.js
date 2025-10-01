@@ -1,4 +1,4 @@
-let userName = prompt("Nhập tên của bạn:");
+let userName = prompt("Nhập username của bạn:");
 let password = prompt("Nhập mật khẩu của bạn:");
 
 if (userName === "admin" && password === "123") {
